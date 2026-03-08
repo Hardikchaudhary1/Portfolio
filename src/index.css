@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  :root {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply antialiased;
+    background-color: #080808;
+    color: #e5e7eb;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  ::selection {
+    background-color: rgba(255, 20, 46, 0.3);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-lg border-b border-white/5;
+    background-color: rgba(8, 8, 8, 0.7);
+  }
+
+  .glass-card {
+    @apply border border-white/5 backdrop-blur-sm transition-all duration-500;
+    background-color: rgba(20, 20, 20, 0.8);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+  }
+
+  .glass-card:hover {
+    border-color: rgba(155, 27, 48, 0.3);
+    box-shadow: 0 0 15px rgba(155, 27, 48, 0.1);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  .nav-link {
+    @apply relative text-sm font-medium transition-colors duration-200 py-2;
+    color: #9ca3af;
+  }
+
+  .nav-link:hover {
+    color: #e5e7eb;
+  }
+
+  .nav-link::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-0.5 bg-primary origin-bottom-right transform scale-x-0 transition-transform duration-300 ease-out;
+  }
+
+  .nav-link:hover::after {
+    @apply origin-bottom-left scale-x-100;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #171717;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9b1b30;
+}

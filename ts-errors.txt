@@ -1,0 +1,17 @@
+src/App.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/layout/Footer.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/layout/Footer.tsx(2,18): error TS6133: 'Linkedin' is declared but its value is never read.
+src/components/layout/Footer.tsx(2,28): error TS6133: 'Twitter' is declared but its value is never read.
+src/components/layout/Navbar.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/About.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/Experience.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/GithubSection.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/GithubSection.tsx(4,32): error TS6133: 'GitCommit' is declared but its value is never read.
+src/components/sections/Hero.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/Projects.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/sections/Projects.tsx(2,1): error TS6133: 'motion' is declared but its value is never read.
+src/components/sections/Projects.tsx(5,24): error TS6133: 'Github' is declared but its value is never read.
+src/components/sections/TechStack.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/ui/Button.tsx(2,18): error TS1484: 'HTMLMotionProps' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/Button.tsx(2,18): error TS6133: 'HTMLMotionProps' is declared but its value is never read.
+src/components/ui/Card.tsx(2,18): error TS1484: 'HTMLMotionProps' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
