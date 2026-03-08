@@ -82,7 +82,7 @@ const Contact = () => {
                         viewport={{ once: true, margin: "-50px" }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                         className="group flex items-center gap-6 px-8 py-6 w-full bg-white/[0.015] border border-white/[0.04] hover:border-white/[0.08] transition-all duration-300 cursor-pointer"
-                        onClick={() => window.open('https://linkedin.com/in/', '_blank')}
+                        onClick={() => window.open('https://www.linkedin.com/in/hardik-chaudhary-89b962290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', '_blank')}
                     >
                         <div className="w-12 h-12 flex items-center justify-center bg-primary/8 text-primary shrink-0">
                             <Linkedin className="w-5 h-5" />
