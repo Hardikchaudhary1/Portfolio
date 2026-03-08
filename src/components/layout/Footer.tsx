@@ -2,7 +2,7 @@ import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const socials = [
     { icon: <Github className="w-4 h-4" />, href: 'https://github.com/Hardikchaudhary1', label: 'GitHub' },
-    { icon: <Linkedin className="w-4 h-4" />, href: 'https://linkedin.com/in/', label: 'LinkedIn' },
+    { icon: <Linkedin className="w-4 h-4" />, href: 'https://www.linkedin.com/in/hardik-chaudhary-89b962290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', label: 'LinkedIn' },
     { icon: <Twitter className="w-4 h-4" />, href: 'https://twitter.com/', label: 'Twitter' },
 ];
 
